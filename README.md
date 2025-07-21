@@ -1,5 +1,9 @@
 # Projeto - Formulário de Matrícula
 
+<p align="center">
+  <img width="1608" height="975" alt="Captura de tela 2025-07-21 182003" src="https://github.com/user-attachments/assets/8fd345da-aed5-4168-9d9a-7d1181d17d0a" />
+</p>
+
 Este repositório contém uma página web responsiva que simula um formulário de matrícula, desenvolvido como parte de um projeto de curso Fullstack.
 
 ## Descrição
