@@ -77,7 +77,7 @@
 
           </fieldset>
 
-          <fildset class="address">
+          <fieldset class="address">
             <legend>Endereço residencial</legend>
 
             <div class="input-wrapper">
@@ -88,9 +88,7 @@
             <div class="flex">
               <div class="input-wrapper flex-2">
                 <label for="street">Rua</label>
-                <input id="street" name="street" type="text"
-                  value="Rua das Flores" disabled
-                >
+                <input id="street" name="street" type="text" value="Rua das Flores" disabled>
               </div>
 
               <div class="input-wrapper flex-1">
@@ -102,8 +100,7 @@
             <div class="flex">
               <div class="input-wrapper flex-2">
                 <label for="city">Cidade</label>
-                <input id="city" name="city" type="text"
-                  value="São Paulo" disabled>
+                <input id="city" name="city" type="text" value="São Paulo" disabled>
               </div>
 
               <div class="input-wrapper flex-1">
@@ -111,7 +108,31 @@
                 <input id="state" name="state" type="text" disabled value="São Paulo">
               </div>
             </div>
-          </fildset>
+          </fieldset>
+
+          <fieldset class="gardian">
+            <legend>Informações do responsável</legend>
+
+            <div class="input-wrapper">
+              <label for="gardian">Nome do responsável</label>
+              <input id="gardian" name="gardian" type="text">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input id="phone" name="phone" type="text" placeholder="(10) 9 8765-4321">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mail">Email</label>
+              <input id="mail" name="mail" type="email" required>
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="Ícone de alerta vermelho">
+                <span>Insira um e-mail válido</span>
+              </div>
+            </div>
+          </fieldset>
         </form>
       </div>
     </main>
